@@ -1,3 +1,4 @@
+# KR2: Kalugin
 import os
 import socket
 

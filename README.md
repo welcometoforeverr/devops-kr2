@@ -1,7 +1,10 @@
-# DevOps KR2
+# Контрольная работа 2
 
-Source template: https://gitverse.ru/dgimatdinov/kr2-template
+Калугин Никита Александрович, ЭФБО-12-24. Номер по списку 10, вариант 2.
+Домен notes.devops.local, порт приложения 8002.
+Шаблон: https://gitverse.ru/dgimatdinov/kr2-template
 
-Student: Калугин Никита Александрович, ЭФБО-12-24. List number: 10.
-
-The source template is retained on main for comparison; corrections are reviewed in kr2/variant-2.
+Логика app.py и requirements.txt сохранена. В app.py добавлен только требуемый комментарий.
+Секрет генерируется на сервере в .env с правами 600. Значение не помещается в Git.
+Для устранения рассогласования environment и интерполяции Compose оба сервиса получают
+REDIS_PASSWORD одной и той же явной подстановкой; проверка готовности раскрывает $$ внутри контейнера.
